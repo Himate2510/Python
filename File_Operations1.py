@@ -1,0 +1,10 @@
+file = open('Aryan2.txt', "w")
+file.write("Hello World")
+
+file.close()
+file = open('Aryan2.txt', "r")
+print(file.read())
+file.close()
+file = open('Aryan1.txt', "r")
+print(file.read())
+file.close()
