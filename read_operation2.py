@@ -1,0 +1,13 @@
+file = open('Aryan4.txt', 'r')
+print("Reading the first line.......... (What do you expect me to do? Read from the 5th line?)")
+print(file.readline())
+file.close()
+
+file = open('Aryan4.txt', 'r')
+print("Reading almost allllllllll the lines.)")
+print(file.readline())
+print(file.readline())
+print(file.readline())
+print(file.readline())
+print(file.readline())
+file.close()
