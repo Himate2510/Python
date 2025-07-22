@@ -1,0 +1,8 @@
+def Mean(arr, arr_size):
+    total_sum = 0
+    for i in range(0, arr_size):
+        total_sum += arr[i]
+    return float(total_sum) / arr_size
+
+arr = [1, 2, 3, 4, 5]
+print("Mean of array is:", Mean(arr, len(arr)))
